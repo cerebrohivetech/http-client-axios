@@ -1,0 +1,27 @@
+{
+  "name": "http-client",
+  "version": "0.0.1",
+  "description": "Minimal HTTP client wrapper library around axios for making http requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "http",
+    "request",
+    "axios"
+  ],
+  "author": "Carbon Developers <developers@getcarbon.co>",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/kvpafrica/http-client.git"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "jest": "^27.1.0",
+    "jest-cli": "^27.1.0"
+  }
+}
